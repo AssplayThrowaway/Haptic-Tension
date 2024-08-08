@@ -29,7 +29,7 @@ Should work with any vibrating items supported by [https://buttplug.io/](https:/
 * Not ironman-compatible.
 * Vibration speed doesn't update while paused.
 * You have to manually toggle off the app when exiting a game.
-* The app may stop doing anything if you unfocus the game or app window, but it should resume shortly after you go back to the game and unpause. (I believe this is only an issue with Xbox controllers)
+* The app may stop doing anything if you unfocus the game or app window, but it should resume shortly after you go back to the game and unpause. (I believe this bug only happens with Xbox controllers)
 * Though Mac/Linux executables are available, this was only tested on Windows.
 
 ## Lastly
