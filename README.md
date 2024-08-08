@@ -11,7 +11,7 @@ REQUIRES two external applications since Paradox hasn't yet offered modders vibr
 
 Compatible with all mods and old saves.
 
-Should work with any vibrating items supported by [https://buttplug.io/](https://buttplug.io): 
+Should work with any vibrating items supported by [https://buttplug.io/](https://buttplug.io):<br />
 [https://iostindex.com/?filter0ButtplugSupport=7&filter1Features=OutputsVibrators](https://iostindex.com/?filter0ButtplugSupport=7&filter1Features=OutputsVibrators)
 
 ## Setup
