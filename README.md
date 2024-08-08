@@ -26,11 +26,11 @@ Should work with any vibrating items supported by [https://buttplug.io/](https:/
 9. Toggle the app on/off with Ctrl+Alt+B (Cmd+Option+B)
 
 ## Caveats
-*Not ironman-compatible.
-*Vibration speed doesn't update while paused.
-*You have to manually toggle off the app when exiting a game.
-*The app may stop doing anything if you unfocus the game or app window, but it should resume after you go back to the game and unpause.
-*Though Mac/Linux executables are available, this was only tested on Windows.
+* Not ironman-compatible.
+* Vibration speed doesn't update while paused.
+* You have to manually toggle off the app when exiting a game.
+* The app may stop doing anything if you unfocus the game or app window, but it should resume after you go back to the game and unpause.
+* Though Mac/Linux executables are available, this was only tested on Windows.
 
 ## Lastly
 I definitely don't have the luxury right now of being able to work much on a project I can't put on my resume, so post-release development is more or less not a thing. If you find a big issue, let me know and I'll probably fix it, otherwise, feel free to take whatever I've made and make your own version.
