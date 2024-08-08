@@ -13,10 +13,11 @@ Should work with any vibrating items supported by [url=https://buttplug.io/]http
 [h2]Setup[/h2]
 1. Install and run the open-source [url=https://intiface.com/central/]Intiface Central[/url] tool.
 2. Install and run my [url=https://github.com/AssplayThrowaway/Haptic-Tension/releases/]helper app[/url].
-3. Connect your device to Intiface.
-4. Connect the helper app to Intiface.
-5. Tell the helper app where your "Paradox Interactive" folder is.
-6. Run the game and toggle the app on/off with Ctrl+Alt+B (Cmd+Option+B)
+3. Start the Intiface server.
+4. Connect your device to Intiface.
+5. Connect the helper app to Intiface.
+6. Tell the helper app where your "Paradox Interactive" folder is.
+7. Run the game and toggle the app on/off with Ctrl+Alt+B (Cmd+Option+B)
 
 [h2]Caveats[/h2]
 [list]
