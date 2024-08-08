@@ -1,0 +1,38 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			random_country = {
+				country_event = haptic_tension_event.1
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			country_event = { id = haptic_tension_event.1 hours = 0 }
+			country_event = { id = haptic_tension_event.1 hours = 1 }
+			country_event = { id = haptic_tension_event.1 hours = 2 }
+			country_event = { id = haptic_tension_event.1 hours = 3 }
+			country_event = { id = haptic_tension_event.1 hours = 4 }
+			country_event = { id = haptic_tension_event.1 hours = 5 }
+			country_event = { id = haptic_tension_event.1 hours = 6 }
+			country_event = { id = haptic_tension_event.1 hours = 7 }
+			country_event = { id = haptic_tension_event.1 hours = 8 }
+			country_event = { id = haptic_tension_event.1 hours = 9 }
+			country_event = { id = haptic_tension_event.1 hours = 10 }
+			country_event = { id = haptic_tension_event.1 hours = 11 }
+			country_event = { id = haptic_tension_event.1 hours = 12 }
+			country_event = { id = haptic_tension_event.1 hours = 13 }
+			country_event = { id = haptic_tension_event.1 hours = 14 }
+			country_event = { id = haptic_tension_event.1 hours = 15 }
+			country_event = { id = haptic_tension_event.1 hours = 16 }
+			country_event = { id = haptic_tension_event.1 hours = 17 }
+			country_event = { id = haptic_tension_event.1 hours = 18 }
+			country_event = { id = haptic_tension_event.1 hours = 19 }
+			country_event = { id = haptic_tension_event.1 hours = 20 }
+			country_event = { id = haptic_tension_event.1 hours = 21 }
+			country_event = { id = haptic_tension_event.1 hours = 22 }
+			country_event = { id = haptic_tension_event.1 hours = 23 }
+		}
+	}
+}

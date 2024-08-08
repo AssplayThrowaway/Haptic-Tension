@@ -1,0 +1,35 @@
+add_namespace = haptic_tension_event
+
+country_event = {
+	id = haptic_tension_event.1
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_variable = global.haptic_tension_last_threat }
+			}
+
+			set_variable = {
+				global.haptic_tension_last_threat = global.threat
+			}
+			log = "HapticTension: [?global.threat]"
+		}
+		
+		else_if = {
+			limit = {
+				check_variable = {
+					var = global.haptic_tension_last_threat
+					value = global.threat
+					compare = not_equals
+				}
+			}
+
+			set_variable = {
+				global.haptic_tension_last_threat = global.threat
+			}
+			log = "HapticTension: [?global.threat]"
+		}
+	}
+}
