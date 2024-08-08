@@ -1,0 +1,31 @@
+{
+  "name": "haptic_tension",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "assplaythrowaway",
+  "license": "ISC",
+  "description": "Haptic Tension Helper App",
+  "dependencies": {
+    "buttplug": "^3.2.2",
+    "electron-squirrel-startup": "^1.0.1",
+    "tail": "^2.2.6",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3"
+  }
+}

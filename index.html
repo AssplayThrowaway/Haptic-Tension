@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Haptic Tension Helper App</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="h1 navbar-brand disabled">Haptic Tension Helper App</a>
+        </div>
+    </nav>
+    <div class="alert alert-warning">Toggle with Ctrl+Alt+B (Cmd+Option+B)</div>
+
+    <div class="mx-1">
+        <div class="d-flex flex-grow">
+            <label for="connectinput">Intiface Server Address:&ThickSpace;</label>
+            <input type="text" class="px-2 flex-grow-1" id="connectinput" value="ws://localhost:12345">
+            <button class="px-2 button btn-secondary" id="connectbtn">Connect to Server</button>
+        </div>
+        <div class="my-3">
+            <div class="d-flex flex-grow">
+                <button class="px-2 button btn-secondary" id="browsebtn">Browse</button>
+                <input type="text" class="px-2 flex-grow-1" id="browsetext" placeholder="Select &quot;Paradox Interactive&quot; Folder" readonly>
+            </div>
+            
+            <div class="card small">
+                <div class="card-body p-2">
+                    <li>Windows/macOS: "Users/USER/Documents/Paradox Interactive" &lpar;Usually&rpar;</li>
+                    <li>Linux: "home/$USER/.local/share/Paradox Interactive" &lpar;Usually&rpar;</li>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex">
+            <label for="factorinput">Vibration Factor:&ThickSpace;</label>
+            <input type="number" id="factorinput" class="ml-2" min="0" max="1" step="0.01" value="1">
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script></script>
+    <script src="renderer.js"></script>
+</body>
+</html>
