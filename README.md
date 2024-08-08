@@ -1,4 +1,7 @@
 # Haptic Tension (A HOI4 Buttplug-Support Mod)
+
+[![Demo](https://img.youtube.com/vi/9HlRy-rwwqc/0.jpg)]([https://youtu.be/9HlRy-rwwqc?si=CPXMKc8Lcv3ga8vV](https://youtu.be/9HlRy-rwwqc))
+
 Live out your guiltiest fantasies. Know what it would've felt like to be Neville Chamberlain with a humiliation kink. Experience life as \*insert some fascist leader who'd be way too insensitive to mention in this context\* if he/she was into the other kind of domination.
 
 This mod (together with its companion apps) let HOI4 control your sex toys. As world tension increases in game, vibration increases irl.
